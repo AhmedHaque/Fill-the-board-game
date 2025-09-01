@@ -8,5 +8,5 @@ This program was made to test how Timers work in the Tiva. The program uses Arm 
 - Game ends when character hit a “ - “ or “ | “ or a previously visited square “ X ”
 - To restart the game, rerun the program.
 ### Subroutine Description
-Print_game(): The following subroutine checks prints a new character and the game board with previous game board based on the character that is pressed by the user. W prints a new grid with a character above. S prints a new grid with a character below. A prints a new grid with a character on the left of the previous character. D prints a new grid with a character right on the left of the previous character.
-Timer_Handler_fail(): The following function gets called when a character overlaps with another character. It ends the game and displays the End message and ends the program.
+- Print_game(): The following subroutine checks prints a new character and the game board with previous game board based on the character that is pressed by the user. W prints a new grid with a character above. S prints a new grid with a character below. A prints a new grid with a character on the left of the previous character. D prints a new grid with a character right on the left of the previous character.
+- Timer_Handler_fail(): The following function gets called when a character overlaps with another character. It ends the game and displays the End message and ends the program.
